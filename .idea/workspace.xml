@@ -4,30 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736016c5-c1e4-45b6-9b09-73648bcf80b9" name="Changes" comment=".java &gt; .class 변경">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_01/_01_HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_01/_02_DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_01/_03_Variables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_01/_04_Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_01/_Quiz_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_02/_01_Operator1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_02/_02_Operator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_02/_03_Operator3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_02/_04_Operator4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_06/_01_Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_06/_02_Parameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_06/_03_Return.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap_06/_04_ParamterAndReturn.java" afterDir="false" />
+    <list default="true" id="736016c5-c1e4-45b6-9b09-73648bcf80b9" name="Changes" comment="기본기 공부중">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/ClientRequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/CustomWebApplicationServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/HttpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/QueryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/QueryStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/RequestLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/calculate/domain/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/calculate/domain/EnumArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/calculate/domain/PositiveNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/tobe/AdditionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/tobe/ArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/tobe/DivisionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/was/practice/tobe/SubtractionOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/was/practice/QueryStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/was/practice/QueryStringsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/was/practice/RequestLineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_01/_01_HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_01/_02_DataTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_01/_03_Variables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_01/_04_Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_01/_05_VariableNaming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_01/_06_Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_01/_07_TypeCasting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_01/_Quiz_01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/chap_02/_01_Operator1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap_06/_04_ParamterAndReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap_06/_04_ParamterAndReturn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
+        <option value="HTTP Request" />
         <option value="Class" />
       </list>
     </option>
@@ -63,16 +66,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/kkyung/Desktop/workspace/JavaStudy/src/main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="was.practice" />
+      <recent name="RequestLine" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
@@ -80,14 +90,17 @@
       <recent name="$PROJECT_DIR$/src/main/java/chap_02" />
       <recent name="$PROJECT_DIR$/src/main/java/chap_01" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="was.practice" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application._04_ParamterAndReturn">
-    <configuration name="_01_Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap_06._01_Method" />
+  <component name="RunManager" selected="JUnit.QueryStringsTest.createTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="was.practice.Main" />
       <module name="JavaStudy.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap_06.*" />
+          <option name="PATTERN" value="was.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,65 +108,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_Parameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap_06._02_Parameter" />
-      <module name="JavaStudy.main" />
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="QueryStringTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaStudy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap_06.*" />
+          <option name="PATTERN" value="was.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="was.practice" />
+      <option name="MAIN_CLASS_NAME" value="was.practice.QueryStringTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03_Return" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap_06._03_Return" />
-      <module name="JavaStudy.main" />
+    <configuration name="QueryStringsTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaStudy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap_06.*" />
+          <option name="PATTERN" value="was.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="was.practice" />
+      <option name="MAIN_CLASS_NAME" value="was.practice.QueryStringsTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_04_Operator4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap_02._04_Operator4" />
-      <module name="JavaStudy.main" />
+    <configuration name="RequestLineTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaStudy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap_02.*" />
+          <option name="PATTERN" value="was.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_04_ParamterAndReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap_06._04_ParamterAndReturn" />
-      <module name="JavaStudy.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap_06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="was.practice" />
+      <option name="MAIN_CLASS_NAME" value="was.practice.RequestLineTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._04_ParamterAndReturn" />
-        <item itemvalue="Application._03_Return" />
-        <item itemvalue="Application._02_Parameter" />
-        <item itemvalue="Application._01_Method" />
-        <item itemvalue="Application._04_Operator4" />
+        <item itemvalue="JUnit.QueryStringsTest.createTest" />
+        <item itemvalue="JUnit.QueryStringTest.createTest" />
+        <item itemvalue="JUnit.RequestLineTest.create" />
+        <item itemvalue="HTTP Request.test | #1" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +177,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682239807183</updated>
-      <workItem from="1682239808215" duration="2094000" />
+      <workItem from="1682239808215" duration="3048000" />
+      <workItem from="1682336888035" duration="6197000" />
     </task>
     <task id="LOCAL-00001" summary="Java Study">
       <created>1682239884928</created>
@@ -181,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682240028623</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="기본기 공부중">
+      <created>1682242085016</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682242085016</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java Study" />
     <MESSAGE value=".java &gt; .class 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value=".java &gt; .class 변경" />
+    <MESSAGE value="기본기 공부중" />
+    <option name="LAST_COMMIT_MESSAGE" value="기본기 공부중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

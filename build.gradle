@@ -10,8 +10,14 @@ repositories {
 }
 
 dependencies {
+    // Logback은 Java 어플리케이션을 위한 로깅 프레임워크로, 유연하고 확장 가능한 API를 제공하여 로그 메시지를 생성할 수 있습니다.
+    // Classic 모듈은 Logback의 최초 구현체로 SLF4J API의 기능이 풍부한 구현을 제공합니다.
+    implementation 'ch.qos.logback:logback-classic:1.4.5'
+
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    testImplementation 'org.assertj:assertj-core:3.23.1'
 }
 
 test {
